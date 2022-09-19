@@ -7,7 +7,9 @@ body{
   background-repeat: no-repeat;
   font-family: 'Poppins', sans-serif;
 }
-
+a{
+  text-decoration: none;
+}
 h1{
   /* background-color: #000000; */
   border-color: transparent;
@@ -113,6 +115,7 @@ h5{
 }
 
 .profile img{
+  height: 20vh;
   margin-top: 10px;
   border: 2px solid black;
   border-radius: 6px;

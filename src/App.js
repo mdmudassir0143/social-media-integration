@@ -48,8 +48,8 @@ function App() {
       </video>
 
       <header className="navbar">
-        <h1>The Sparks Foundation</h1>
-        <h5> ...inspiring,innovating,integrating</h5>
+        <a href="https://www.thesparksfoundationsingapore.org/" target="blank"><h1>The Sparks Foundation</h1></a>
+        <h5> ...inspiring, innovating, integrating</h5>
       </header>
       {!loggedIn && (
           <div className="container tilt-inner">
