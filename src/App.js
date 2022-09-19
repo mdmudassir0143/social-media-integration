@@ -71,8 +71,8 @@ function App() {
       {loggedIn && (
         <div className="container">
           <div className="profile">
-            <h2>{name}</h2>
-            <h4>{email}</h4>
+            <h4>Welcome back!</h4><h2>{name}</h2>
+            <h5>{email}</h5>
             <img src={image} alt="usrImage" />
           </div>
           <div className="logout">
@@ -104,7 +104,7 @@ function App() {
               alt="Github"
             />
           </a>
-          <p>Developed by Mohammad Mudassir</p>
+          <p>Created by Mohammad Mudassir</p>
         </div>
       </footer>
     </div>
