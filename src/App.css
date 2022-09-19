@@ -44,7 +44,7 @@ h5{
 }
 
 .container{
-  min-height: 60vh;
+  min-height: 75vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -136,7 +136,7 @@ h5{
 }
 
 .footer a{
-  margin: 0 10px;
+  margin: 0 15px;
 }
 .footer {
   position: fixed;
